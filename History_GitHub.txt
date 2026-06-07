@@ -1,0 +1,104 @@
+    1  clear
+    2  git --help
+    3  git --version
+    4  git clone --help
+    5  git config --list
+    6  git config --global user.name"SaraGit"
+    7  git config --global user.email"saradelpinomartinez@gmail.com"
+    8  git config --list
+    9  rmdir RepoL_Sara
+   10  mkdir RepoL_Sara
+   11  ./RepoL_Sara/
+   12  cd ./RepoL_Sara/
+   13  touch script1.sh script2.sh archivo1.txt README.md
+   14  nano README.md 
+   15  git init
+   16  ls -la
+   17  git status
+   18  touch .gitignore
+   19  nano .gitignore 
+   20  cd ./.git
+   21  ls -l
+   22  cd ..
+   23  ls -la
+   24  git status
+   25  git add -A
+   26  git status
+   27  git reset script2.sh
+   28  git status
+   29  git commit -m "Primer commit del repo local"
+   30  git status
+   31  git log
+   32  git rm --cached script1.sh
+   33  git status
+   34* 
+   35  cd ..
+   36  rm -rf RepoL_Sara/
+   37  mkdir RepoR_Sara
+   38* 0~https://github.com/saradelpinomartinez/Repo_Remoto_Sara.git~
+   39  git clone htts://github.com/saradelpinomartinez/Repo_Remoto_Sara.git RepoR_Sara/
+   40  git clone https://github.com/saradelpinomartinez/Repo_Remoto_Sara.git RepoR_Sara/
+   41  cd ./RepoR_Sara/
+   42  ls -la
+   43  git branch -a
+   44* 
+   45  git status
+   46  git diff
+   47  git add -A
+   48  git commit -m "1st change on the remote repository"
+   49  ls -la
+   50  cat README.md 
+   51  git pull origin main
+   52* 
+   53  git pull --no-rebase origin main
+   54  git push origin main
+   55  git status
+   56  git branch "Rama1"
+   57  git branch
+   58  git checkout Rama1
+   59  git branch
+   60  nano archivo1.txt
+   61  git status
+   62  git add -A
+   63  git status
+   64  git commit -m "Modificación arch1 rama1"
+   65  git checkout main
+   66  git branch
+   67  cat archivo1.txt
+   68  clear
+   69  cat archivo1.txt
+   70  git branch
+   71  git checkout Rama1
+   72  cat archivo1.txt
+   73  git branch
+   74  git checkout main
+   75  git merge Rama1
+   76  git branch --merged
+   77  git push origin main
+   78  git branch --merged
+   79  git branch
+   80  git branch -d Rama1
+   81  git branch -a
+   82  git push origin --delete Rama1
+   83  git branch "Rama1"
+   84  git pull origin main
+   85  git add -A
+   86  git push origin main
+   87  git push -u origin Rama1
+   88  git branch --merged
+   89  git checkout Rama1
+   90  nano archivo1.txt
+   91  git branch --merged
+   92  git checkout main
+   93  git branch --merged
+   94  git checkout Rama1
+   95  git add -A
+   96  git branch -d Rama1
+   97  git merge Rama1
+   98  git branch -d Rama1
+   99  git checkout main
+  100  git branch -d Rama1
+  101  git branch -a
+  102* 
+  103  git push -u origin Rama1
+  104  history > History_GitHub.txt

@@ -1,2 +1,3 @@
 Archvio de prueba 1 del repositorio remoto IPC
 Realizamos cambios en el archivo1 Rama1 
+Realizo cambios en archivo1 Rama1 por segunda vez en el repo local
